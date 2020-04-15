@@ -1,3 +1,4 @@
+*rename folder "env.example" menjadi ".env"
 1. Buat lah database pada phpmyadmin dengan nama "lelang"
 2. Buka CMD pada folder ini lalu jalankan perintah "php artisan migrate"
 3. Lalu jalankan "composer dump-autoload"
