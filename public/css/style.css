@@ -1,0 +1,185 @@
+:root{
+	--mainbg:#5A92FF;
+}
+
+.navb{
+	background-color: var(--mainbg);
+}
+.nav-link{
+	color: #fff !important;
+}
+.backcol{
+	background-color: #5A92FF;
+}
+.head{
+	color: #fff;
+	font-family: arial;
+	margin-top: 10vh;
+}
+.card-l{
+	margin-top: 5vh;
+	border-radius: 15px;
+	padding-top: 4vh;
+}
+.card-l input{
+	margin-top: 3vh;
+	border-radius: 8px;
+	height: 5vh
+}
+.btn-l{
+	margin-top: 10vh;
+	width: 100%
+}
+.card-r{
+	border-radius: 15px;
+	margin-top: 6vh;
+	padding-top: 5vh;
+}
+.btnr{
+	width: 100%;
+	margin-top: 10vh;
+	background-color: var(--mainbg);
+}
+.cards{
+	width: 85%;
+	height: 50vh;
+}
+.cards .header{
+	height: 45%;
+}
+.cards .header img{
+	max-height: 100%;
+}
+.cards h3{
+	font-size: 12pt;
+}
+.cards h4{ 
+	font-size: 10pt;
+}
+.cards h5{
+	font-size: 9pt;
+}
+.card-create{
+	border-radius: 10px;
+	padding-top: 5vh;
+	height: auto;
+}
+.card-creates{
+	border-radius: 10px;
+	padding-top: 1vh;
+	height: auto;
+}
+.none{
+	display: none;
+}
+.image input{
+	visibility: hidden;
+}
+.image .label_img img{
+	width: 100%;
+	cursor: pointer;
+	transition: .3s;
+}
+.image .label_img img:hover{
+	opacity: .5;
+
+}
+.linked{
+	text-decoration: none;
+}
+.linked .card .card-body h3{
+	text-decoration: none;
+}
+.card-hover:hover{
+	opacity: .5;
+}
+.detail_img img{
+	width: 80%;
+	height: 80%;
+}
+.heads h3{
+	color: #000 ;
+}
+.kotak{
+	width: 90%;
+	height: 40vh;
+	padding: 5px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	border: 1px solid grey;
+	box-sizing: content-box;
+	border-radius: 10px;
+}
+.desk{
+	margin-top: 2vh;
+}
+.desk h5{
+	color: grey;
+}
+.desk p{
+	color: grey;
+	font-size: 8pt;
+}
+.biru{
+	color: #2E76FF;
+}
+.thead{
+ background-color: var(--mainbg);
+ color: #fff;
+}
+.btn-info{
+	color: #fff;
+}
+.table .btn{
+	border-radius: 10px;
+	width: 8vw;
+}
+.btn-edit{
+	margin-bottom: 1.5vw;
+}
+.be{
+	width: 13vw;
+}
+.card-konfirm{
+	padding-top: 3vh;
+	border-radius: 10px;
+	
+	height: 75vh;
+}
+.wrapper{
+ 	max-height: 65vh;
+ 	overflow-y: auto;
+}
+.wrappers{
+ 	height: 60vh;
+ 	overflow-y: auto;
+}
+.form-harga{
+	width: 100%;
+	border-radius: 15px;
+}
+.cari{
+	width: 100%;
+	margin-bottom: 1vh;
+
+}
+.white{
+	color: #fff!important;
+	width: 100%;
+}
+.bsm{
+	border-radius: 18px;
+	opacity: .8;
+	font-size: 6pt !important;
+}
+.bso{
+	border-radius: 18px;
+	opacity: .8;
+	font-size: 6pt !important;
+}
+.card-footer{
+	background-color: #fff;
+	height: 5vh;
+	padding: 3px;
+	border: none;
+}

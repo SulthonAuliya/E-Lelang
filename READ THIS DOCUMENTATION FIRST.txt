@@ -1,0 +1,12 @@
+1. Buat lah database pada phpmyadmin dengan nama "lelang"
+2. Buka CMD pada folder ini lalu jalankan perintah "php artisan migrate"
+3. Lalu jalankan "composer dump-autoload"
+4. Lalu jalankan "php artisan db:seed --class=CreateAdminSeeder"
+5. Lalu jalankan "php artisan db:seed --class=barangSeeder"
+6. lalu ketikan perintah "php artisan serve"
+7. copy halaman yang tertera pada hasil outputnya ex : http://127.0.0.1:8000
+8. jalankan web
+*default user
+admin = admin@gmail.com 	passsword = 123456789
+kasir = petugas@gmail.com 	passsword = 123456789
+owner = user@gmail.com 		passsword = 123456789
