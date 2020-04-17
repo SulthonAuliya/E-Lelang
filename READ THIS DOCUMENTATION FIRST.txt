@@ -1,7 +1,9 @@
 *rename folder "env.example" menjadi ".env"
+*buka cmd lalu jalankan "composer update"
+
 1. Buat lah database pada phpmyadmin dengan nama "lelang"
-2. Buka CMD pada folder ini lalu jalankan perintah "php artisan migrate"
-3. Lalu jalankan "php artisan key:generate"
+2. Buka CMD pada folder ini lalu jalankan perintah "php artisan key:generate"
+3. Lalu jalankan "php artisan migrate"
 4. Lalu jalankan "composer dump-autoload"
 5. Lalu jalankan "php artisan db:seed --class=CreateAdminSeeder"
 6. Lalu jalankan "php artisan db:seed --class=barangSeeder"
