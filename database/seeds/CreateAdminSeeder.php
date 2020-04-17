@@ -36,7 +36,28 @@ class CreateAdminSeeder extends Seeder
                 'alamat' => 'Bandung',
         		'telp'	=>	"082115100333",
         		'password' => bcrypt('123456789')
-        	]
+        	],
+            [
+                'name' => 'Kevin',
+                'email' => 'kevin@gmail.com',
+                'alamat' => 'Bandung',
+                'telp'  =>  "082115100333",
+                'password' => bcrypt('123456789')
+            ],
+            [
+                'name' => 'Sulthon',
+                'email' => 'sulthon@gmail.com',
+                'alamat' => 'Bandung',
+                'telp'  =>  "082115100333",
+                'password' => bcrypt('123456789')
+            ],
+            [
+                'name' => 'Dimas',
+                'email' => 'dimas@gmail.com',
+                'alamat' => 'Bandung',
+                'telp'  =>  "082115100333",
+                'password' => bcrypt('123456789')
+            ],
         ];
 
         	foreach ($user as $key => $value) {

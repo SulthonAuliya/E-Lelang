@@ -17,6 +17,18 @@ class homeUser extends Model
                      ->orWhere('status', 'ongoing');
     }
 
+    public function scopeFinished($query){
+        return $query->where('status', 'finished');
+    }
+
+    public function scopeGoing($query){
+        return $query->where('status', 'accepted');
+    }
+
+    public function scopePending($query){
+        return $query->where('status', 'pending');
+    }
+
     public function user(){
     	return $this->belongsTo('App\User');
     } 

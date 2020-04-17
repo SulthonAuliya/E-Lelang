@@ -26,4 +26,5 @@ Route::POST('harga','hargaController@store')->name('createHarga');
 Route::POST('lelang','lelangController@store')->name('createLelang');
 Route::resource('regis','RegisController');
 Route::get('cari','RegisController@cari')->name('cari');
+Route::resource('laporan','laporanController');
 

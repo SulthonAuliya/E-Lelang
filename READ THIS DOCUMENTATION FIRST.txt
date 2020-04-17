@@ -1,13 +1,20 @@
 *rename folder "env.example" menjadi ".env"
 1. Buat lah database pada phpmyadmin dengan nama "lelang"
 2. Buka CMD pada folder ini lalu jalankan perintah "php artisan migrate"
-3. Lalu jalankan "composer dump-autoload"
-4. Lalu jalankan "php artisan db:seed --class=CreateAdminSeeder"
-5. Lalu jalankan "php artisan db:seed --class=barangSeeder"
-6. lalu ketikan perintah "php artisan serve"
-7. copy halaman yang tertera pada hasil outputnya ex : http://127.0.0.1:8000
-8. jalankan web
+3. Lalu jalankan "php artisan key:generate"
+4. Lalu jalankan "composer dump-autoload"
+5. Lalu jalankan "php artisan db:seed --class=CreateAdminSeeder"
+6. Lalu jalankan "php artisan db:seed --class=barangSeeder"
+7. Lalu jalankan "php artisan db:seed --class=lelangSeeder"
+8. Lalu jalankan "php artisan db:seed --class=hargaSeeder"
+9. lalu ketikan perintah "php artisan serve"
+10. copy halaman yang tertera pada hasil outputnya ex : http://127.0.0.1:8000
+11. jalankan web
+
 *default user
-admin = admin@gmail.com 	passsword = 123456789
-kasir = petugas@gmail.com 	passsword = 123456789
-owner = user@gmail.com 		passsword = 123456789
+Admin = admin@gmail.com 	passsword = 123456789
+Petugas = petugas@gmail.com 	passsword = 123456789
+User = user@gmail.com 		passsword = 123456789
+User = kevin@gmail.com 		passsword = 123456789
+User = sulthon@gmail.com 	passsword = 123456789
+User = dimas@gmail.com 		passsword = 123456789

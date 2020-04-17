@@ -4,26 +4,24 @@ namespace App\Http\Controllers;
 
 use App\homeUser;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\DB;
 
-class AdminController extends Controller
+class laporanController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-     public function __construct()
+    public function index()
     {
-        $this->middleware('auth');
-    }
-
-    public function index() 
-    {
-
-        $barang = homeUser::latest()->paginate(10);
-        return view('admin.konfirmasi',compact('barang'))
-                ->with('i', (request()->input('page', 1) - 1) * 10);
+        $sold = homeUser::finished()->latest()->paginate(5);
+        $soldc = homeUser::finished()->latest()->count();
+        $acc = homeUser::going()->latest()->paginate(5);
+        $accC = homeUser::going()->latest()->count();
+        $pending = homeUser::pending()->latest()->paginate(5);
+        $pendingC = homeUser::pending()->latest()->count();
+        return view('admin.laporan',compact('sold','soldc','acc','accC','pending','pendingC'))
+                ->with('i', (request()->input('page', 1) - 1) * 5);
     }
 
     /**
@@ -55,7 +53,7 @@ class AdminController extends Controller
      */
     public function show(homeUser $homeUser)
     {
-     
+        //
     }
 
     /**
@@ -64,10 +62,9 @@ class AdminController extends Controller
      * @param  \App\homeUser  $homeUser
      * @return \Illuminate\Http\Response
      */
-    public function edit($id_barang)
+    public function edit(homeUser $homeUser)
     {
-        $data = homeUser::findOrFail($id_barang);
-        return view('admin.edit', compact('data'));
+        //
     }
 
     /**
@@ -79,22 +76,7 @@ class AdminController extends Controller
      */
     public function update(Request $request, homeUser $homeUser)
     {
-        $request->validate([
-
-            'id_barang'     => 'required',
-            'nama_barang'   => 'required',
-            'tgl'           => 'required', 
-            'harga_awal'    => 'required',
-            'desc'          => 'required',
-            'status'        => 'required',
-            'image'         => 'required',
-        ]);
-        
-        DB::table('barang')
-            ->where('id_barang', $request->id_barang)
-            ->update(['status' => $request->status]);
-        return redirect()->route('e-lelang.index')
-                         ->with('succes','barang anda sudah berhasil di update');
+        //
     }
 
     /**

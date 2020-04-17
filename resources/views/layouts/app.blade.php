@@ -62,9 +62,17 @@
                                 <li class="nav-item">
                                     <a href="{{ route('admin.index') }}" class="nav-link">Konfirmasi barang</a>
                                 </li>
+
+                                <li class="nav-item">
+                                    <a href="{{ route('laporan.index') }}" class="nav-link">Laporan</a>
+                                </li>
                             @elseif (auth()->user()->isPetugas == 1)
                                 <li class="nav-item">
                                     <a href="{{ route('admin.index') }}" class="nav-link">Konfirmasi barang</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a href="{{ route('laporan.index') }}" class="nav-link">Laporan</a>
                                 </li>
                             @elseif (auth()->user()->isPetugas == 0 && auth()->user()->isAdmin == 0)
                                 <li class="nav-item">

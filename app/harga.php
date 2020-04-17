@@ -13,17 +13,6 @@ class harga extends Model
         'id_barang','user_id', 'harga'
     ];
 
-    // public static function value($id_bar, $harga){
-    //    // $max = DB::table('t_harga')
-    //    //          ->select('user_id','id_barang','harga')
-    //    //          ->where('id_barang',$id_bar)
-    //    //          ->max('harga');
-
-    //     $query = DB::table('t_harga')  
-    //                 ->select('*')
-    //                 ->where('user_id', '3');    
-    //     return $query;
-    // }
 
 
     // public function scopeHasil($query,$harga){

@@ -41,6 +41,7 @@
 	background-color: var(--mainbg);
 }
 .cards{
+	box-shadow: 0px 2px 2px grey;
 	width: 85%;
 	height: 50vh;
 }
@@ -182,4 +183,22 @@
 	height: 5vh;
 	padding: 3px;
 	border: none;
+}
+.collapsible {
+  color: white;
+  cursor: pointer;
+  padding: ;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  height: 5vh;
+}
+
+.card-lapor{
+	padding-top: 3vh;
+	border-radius: 10px;
+	
+	height: auto;
 }
