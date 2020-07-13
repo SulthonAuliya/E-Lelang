@@ -12,9 +12,7 @@ class harga extends Model
     protected $fillable = [
         'id_barang','user_id', 'harga'
     ];
-
-
-
+    
     // public function scopeHasil($query,$harga){
     //     $nama = 'harga';
     //     return $query->where($nama, $harga);
