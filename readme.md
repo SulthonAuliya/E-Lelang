@@ -45,10 +45,6 @@ This is a few easy steps for you to run this website locally in your dekstop aft
 - User    = sulthon@gmail.com 	passsword = 123456789
 - User    = dimas@gmail.com 	passsword = 123456789
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
 ## License
 
 Please contact me for permission of developing this project more.
