@@ -1,23 +1,26 @@
 @extends('layouts.app')
 
 @section('content')
+    <div class="jumbotron jumbo-create">
 
-    <div class="container">
-        <div class="row">
+    </div>
+
+    <div class="container ajukan">
+        <div class="row row-create">
             <div class="col-sm-12">
                 <div class="card card-create">
                     <div class="container-fluid">
                         <div class="row">
                             <div class="col-sm-12">
                                 <div class="text-center">
-                                    <h2><b>Ajukan Tawaran Anda!</b></h2>
+                                    <h2 class="biru"><b>Ajukan Tawaran Anda!</b></h2>
                                 </div>
                             </div>
                         </div>
                         <form action="{{ route('createProduct') }}" method="POST" class="form" enctype="multipart/form-data">
                         @csrf 
                         <div class="row" style="margin-top: 5vh;">
-                            <div class="col-sm-4 image ">
+                            <div class="col-xl-4 col-sm-12 image ">
                                 <div class="row">
                                     <div class="col-sm-12">
                                         <label for="img_input" class="label_img ">
@@ -27,7 +30,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-sm-8">
+                            <div class="col-xl-8 col-sm-12">
                                 
                                     
                                     <div class="row form-group none">

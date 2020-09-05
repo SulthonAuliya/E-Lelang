@@ -9,6 +9,8 @@
 6. Lalu jalankan "php artisan db:seed --class=barangSeeder"
 7. Lalu jalankan "php artisan db:seed --class=lelangSeeder"
 8. Lalu jalankan "php artisan db:seed --class=hargaSeeder"
+9. Lalu jalankan "npm install"
+10.Lalu jalankan "npm run dev"
 9. lalu ketikan perintah "php artisan serve"
 10. copy halaman yang tertera pada hasil outputnya ex : http://127.0.0.1:8000
 11. jalankan web

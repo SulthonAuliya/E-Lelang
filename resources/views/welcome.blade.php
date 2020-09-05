@@ -31,7 +31,7 @@
                   top: 50%;
                   left: 50%;
                   transform: translate(-50%, -50%);
-                  font-size: 35px;
+                  font-size: 4vw;
                   font-weight: bolder;
                   letter-spacing: 12px;
             }
@@ -68,7 +68,7 @@
             .links > a {
                 color: #fff;
                 padding: 0 25px;
-                font-size: 13px;
+                font-size: 2vw;
                 font-weight: 600;
                 letter-spacing: .1rem;
                 text-decoration: none;
@@ -101,7 +101,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    e-lelang
+                   <b>e-lelang</b> 
                 </div>
                 <div class="coment">
                     <h2>"lelang everything you want as simple as possible"</h2>

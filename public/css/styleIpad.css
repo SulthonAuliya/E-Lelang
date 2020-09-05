@@ -1,0 +1,114 @@
+@media (max-width: 991px){
+    /* navbar */
+    .dropdown {
+        margin-top: -.6vh;
+    }
+
+
+    /* login page */
+    .card-login-baru{
+        margin-top: 2vh;
+        height: auto !important;
+        padding: 5vh;
+    }
+    .card-login-baru .head{
+        text-align: center;
+    }
+    .card-login-baru form{
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .card-login-baru .login label{
+        font-size: 2.8vw;
+    }
+    .card-login-baru .login input:focus ~ label{
+        font-size: 2.3vw;
+    }
+
+    /* register section */
+    .card-register-baru {
+        height: auto;
+        padding-top: -1vh;
+        padding-left: 5vh;
+        padding-right: 5vh;
+    }
+
+    .headr{
+        text-align: center;
+    }
+    .card-register-baru .login label{
+        font-size: 2.8vw;
+    }
+    .card-register-baru .login input:focus ~ label{
+        font-size: 2.3vw;
+    }
+
+
+    /* home */
+    .card-barang .header{
+        width: 100%;
+        height: 23vh;
+    }
+    .card-barang h2{
+        font-size: 3vw;
+    }
+    .card-barang h3{
+        float: right;
+        margin-top: 5vh;
+        font-size: 2.5vw;
+    }
+    .card-barang h4{
+        float: right;
+        font-size: 2vw;
+    }
+
+    /* detail page */
+    .card-detail .image-product{
+        width: 100%;
+        height: 40vh;
+        padding: 20px;
+        filter: drop-shadow(3px 3px 15px rgb(85, 85, 85));
+    }
+    .card-detail .img-barang{
+        border-radius: 7px;
+        width: 100%;
+        height: auto;
+    }
+    .kanan .owner{
+        font-size: 2vw;
+        color: var(--mainbg);
+    }
+    .kanan .nama-barang{
+        font-size: 3.5vw;
+        color: #333;
+        width: 100%;
+    }
+    .kanan .desc-title{
+        font-size: 2.5vw;
+        color: var(--mainbg);
+    }
+    .kanan .desc-box{
+        width: 100%;
+        height: 30vh;
+        overflow-y: auto;
+        padding: 18px;
+    }
+    .kanan .desc-box h5{
+        font-size: 2vw;
+        color: #555;
+    }
+
+    .harga-awal,
+    .last-bid{
+        font-size: 3vw;
+        color: #333;
+    }
+    .refresh{
+        font-size: 2vw;
+    }
+    .form-harga{
+        width: 100%;
+        border-radius: 15px;
+        margin-top: 10px;
+    }
+}
