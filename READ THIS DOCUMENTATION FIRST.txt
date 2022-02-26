@@ -1,4 +1,4 @@
-*rename folder "env.example" menjadi ".env"
+*rename file"- Copy.env.example" menjadi ".env"
 *buka cmd lalu jalankan "composer update"
 
 1. Buat lah database pada phpmyadmin dengan nama "lelang"

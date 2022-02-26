@@ -20,7 +20,7 @@ E-Lelang is easy to use, and easy to be developed more.
 
 This is a few easy steps for you to run this website locally in your dekstop after cloning this project.
 
-- rename folder "env.example" menjadi ".env"
+- rename folder "- Copy.env.example" menjadi ".env"
 - buka cmd lalu jalankan "composer update"
 
 1. Buat lah database pada phpmyadmin dengan nama "lelang"
