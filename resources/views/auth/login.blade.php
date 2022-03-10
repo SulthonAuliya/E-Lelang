@@ -20,7 +20,7 @@
                                 <div class="form-group row">
                                     <div class="col-xl-12 login">
                                         <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" >
-                                        <label class="label" for="email">Email</label>
+                                        <label class="label" for="email">Your email</label>
                                         @error('email')
                                             <span class="invalid-feedback" role="alert">
                                                 <strong>{{ $message }}</strong>
